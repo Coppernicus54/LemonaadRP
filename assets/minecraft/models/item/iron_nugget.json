@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_nugget"
+  },
+  "overrides": [
+	{
+		
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "custom:item/lemon"
+	},
+	{
+		
+		"predicate": {
+			"custom_model_data": 2
+		},
+		"model": "custom:item/keycard"
+	},
+	{
+		
+		"predicate": {
+			"custom_model_data": 3
+		},
+		"model": "custom:item/keycard2"
+	}
+  ]
+}
